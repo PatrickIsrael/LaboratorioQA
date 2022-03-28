@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.1 (Python 3.9.7 on win32)" generated="20220328 10:52:03.476" rpa="false" schemaversion="2">
+<suite id="s1" name="Tests" source="D:\Projetos_Git\LaboratorioQA\backend\tests">
+<suite id="s1-s1" name="CadastrarUsuarios" source="D:\Projetos_Git\LaboratorioQA\backend\tests\CadastrarUsuarios.robot">
+<test id="s1-s1-t1" name="Cadastrar Usuário">
+<kw name="New User" library="User">
+<var>${user}</var>
+<arg>Teste API</arg>
+<arg>api@teste.com</arg>
+<arg>Teste123</arg>
+<arg>128.006.807-84</arg>
+<arg>https://www.xenonstack.com/hubfs/xenonstack-api-testing-tools.png</arg>
+<msg timestamp="20220328 10:52:03.595" level="INFO">${user} = {'nome': 'Teste API', 'email': 'api@teste.com', 'senha': 'Teste123', 'cpf': '128.006.807-84', 'urlFoto': 'https://www.xenonstack.com/hubfs/xenonstack-api-testing-tools.png'}</msg>
+<status status="PASS" starttime="20220328 10:52:03.594" endtime="20220328 10:52:03.595"/>
+</kw>
+<kw name="POST Users" library="Usuarios">
+<var>${response}</var>
+<arg>${user}</arg>
+<kw name="POST" library="RequestsLibrary">
+<var>${response}</var>
+<arg>${USER_API}</arg>
+<arg>json=${payload}</arg>
+<arg>expected_status=any</arg>
+<doc>Sends a POST request.</doc>
+<msg timestamp="20220328 10:52:03.611" level="INFO">POST Request : url=http://localhost:8081/usuarios 
+ path_url=/usuarios 
+ headers={'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '173', 'Content-Type': 'application/json'} 
+ body=b'{"nome": "Teste API", "email": "api@teste.com", "senha": "Teste123", "cpf": "128.006.807-84", "urlFoto": "https://www.xenonstack.com/hubfs/xenonstack-api-testing-tools.png"}' 
+ </msg>
+<msg timestamp="20220328 10:52:03.611" level="INFO">POST Response : url=http://localhost:8081/usuarios 
+ status=201, reason= 
+ headers={'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Date': 'Mon, 28 Mar 2022 13:52:03 GMT', 'Keep-Alive': 'timeout=60', 'Connection': 'keep-alive'} 
+ body={"mensagemSucesso":"Usuário cadastrado com Sucesso","usuario":{"id":24,"nome":"Teste API","email":"api@teste.com","senha":"Teste123","cpf":"128.006.807-84","urlFoto":"https://www.xenonstack.com/hubfs/xenonstack-api-testing-tools.png","status":"CADASTRADO"}} 
+ </msg>
+<msg timestamp="20220328 10:52:03.611" level="INFO">${response} = &lt;Response [201]&gt;</msg>
+<status status="PASS" starttime="20220328 10:52:03.595" endtime="20220328 10:52:03.611"/>
+</kw>
+<msg timestamp="20220328 10:52:03.612" level="INFO">${response} = &lt;Response [201]&gt;</msg>
+<status status="PASS" starttime="20220328 10:52:03.595" endtime="20220328 10:52:03.612"/>
+</kw>
+<kw name="Status Should Be" library="RequestsLibrary">
+<arg>201</arg>
+<arg>${response}</arg>
+<doc>Fails if response status code is different than the expected.</doc>
+<status status="PASS" starttime="20220328 10:52:03.612" endtime="20220328 10:52:03.612"/>
+</kw>
+<kw name="Should Not Be Equal As Strings" library="BuiltIn">
+<arg>0</arg>
+<arg>${response.json()}[usuario][id]</arg>
+<doc>Fails if objects are equal after converting them to strings.</doc>
+<msg timestamp="20220328 10:52:03.613" level="INFO">Argument types are:
+&lt;type 'unicode'&gt;
+&lt;class 'int'&gt;</msg>
+<status status="PASS" starttime="20220328 10:52:03.612" endtime="20220328 10:52:03.613"/>
+</kw>
+<status status="PASS" starttime="20220328 10:52:03.594" endtime="20220328 10:52:03.613"/>
+</test>
+<doc>Suíte de testes da rota de Sessions</doc>
+<status status="PASS" starttime="20220328 10:52:03.501" endtime="20220328 10:52:03.614"/>
+</suite>
+<status status="PASS" starttime="20220328 10:52:03.478" endtime="20220328 10:52:03.616"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Tests">Tests</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="CadastrarUsuarios">Tests.CadastrarUsuarios</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
