@@ -11,7 +11,7 @@ Resource    Database.robot
 
 ${urlBase}     https://laboratorio-qa.herokuapp.com
 ${BROWSER}     chromium
-${HEADLESS}    False
+${HEADLESS}    True
 
 *Keywords*
 Acessar Página Web
