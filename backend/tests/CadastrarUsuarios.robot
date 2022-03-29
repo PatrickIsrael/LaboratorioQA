@@ -1,5 +1,5 @@
 **Settings**
-Documentation    Suíte de testes da rota de Sessions
+Documentation    Suíte de testes da rota de Usuários
 
 Resource    ${EXECDIR}/resources/Base.robot
 

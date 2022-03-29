@@ -2,14 +2,14 @@
 Documentation    Base dos arquivos de teste
 
 Library    Browser
-Library    utils.py
 
 Resource    actions/UsuarioActions.robot
 Resource    Database.robot
 
+
 *Variables*
 
-${urlBase}     http://localhost:8080
+${urlBase}     https://laboratorio-qa.herokuapp.com
 ${BROWSER}     chromium
 ${HEADLESS}    False
 

@@ -8,4 +8,4 @@ Library    factories/User.py
 Resource    routes/Usuarios.robot
 
 **Variables**
-${USER_API}    http://localhost:8081/usuarios
+${USER_API}    https://laboratorio-qa-usuarios.herokuapp.com/usuarios

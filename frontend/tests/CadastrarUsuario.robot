@@ -1,5 +1,5 @@
 *Settings*
-Documentation    Suite de Testes da tela de cadastro de usuário
+Documentation    Suite de Testes do cadastro de usuários
 
 Resource    ${EXECDIR}/resources/Base.robot
 
@@ -10,8 +10,8 @@ Test Teardown    Tirar Print
 Cadastrar usuário
 
     Ir para a tela de usuários
-    Preencher os Campos de Cadastro    Teste cadastro    cadastro@teste.com    Teste123    128.006.807-84    https://www.aplicaplacas.com.br/uploads/img/550/placa-sinalizacao-cuidado-area-de-teste-9e8ab87cf00f1eba23f4f4103251680a.jpg
+    Preencher os Campos de Cadastro    Teste cadastro    128.006.807-84    cadastro@teste.com    Teste123    https://www.aplicaplacas.com.br/uploads/img/550/placa-sinalizacao-cuidado-area-de-teste-9e8ab87cf00f1eba23f4f4103251680a.jpg
     Clicar em Cadastrar
 
-    Conectar ao Banco de dados
     ${usuario}                    Consultar Usuario por cpf    128.006.807-84
+    Should be Equal As Strings    CADASTRADO                   ${usuario[5]}

@@ -9,3 +9,9 @@ POST Users
     ${response}    POST    ${USER_API}    json=${payload}    expected_status=any
 
     [return]    ${response}
+
+GET Users
+
+    ${response}    GET    ${USER_API}    expected_status=any
+
+    [return]    ${response}

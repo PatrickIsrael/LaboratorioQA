@@ -1,18 +1,18 @@
-{"level":30,"time":"2022-03-28T00:49:22.389Z","pid":4732,"hostname":"DESKTOP-J783RV2","msg":"Listening on 50576"}
-{"level":30,"time":"2022-03-28T00:49:23.106Z","pid":4732,"hostname":"DESKTOP-J783RV2","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2022-03-28T00:49:23.119Z","pid":4732,"hostname":"DESKTOP-J783RV2","msg":"Changed active context"}
-{"level":30,"time":"2022-03-28T00:49:23.335Z","pid":4732,"hostname":"DESKTOP-J783RV2","msg":"Video path: undefined"}
-{"level":30,"time":"2022-03-28T00:49:23.336Z","pid":4732,"hostname":"DESKTOP-J783RV2","msg":"Changed active page"}
-{"level":30,"time":"2022-03-28T00:49:24.071Z","pid":4732,"hostname":"DESKTOP-J783RV2","msg":"Page|Frame|Element resolved elementSelector: css=a[href=\"/usuario/formulario\"]"}
-{"level":30,"time":"2022-03-28T00:49:24.276Z","pid":4732,"hostname":"DESKTOP-J783RV2","msg":"Page|Frame|Element resolved elementSelector: id=nome"}
-{"level":30,"time":"2022-03-28T00:49:24.319Z","pid":4732,"hostname":"DESKTOP-J783RV2","msg":"Page|Frame|Element resolved elementSelector: id=cpf"}
-{"level":30,"time":"2022-03-28T00:49:24.337Z","pid":4732,"hostname":"DESKTOP-J783RV2","msg":"Page|Frame|Element resolved elementSelector: id=email"}
-{"level":30,"time":"2022-03-28T00:49:24.352Z","pid":4732,"hostname":"DESKTOP-J783RV2","msg":"Page|Frame|Element resolved elementSelector: id=senha"}
-{"level":30,"time":"2022-03-28T00:49:24.368Z","pid":4732,"hostname":"DESKTOP-J783RV2","msg":"Page|Frame|Element resolved elementSelector: id=urlFoto"}
-{"level":30,"time":"2022-03-28T00:49:24.387Z","pid":4732,"hostname":"DESKTOP-J783RV2","msg":"Page|Frame|Element resolved elementSelector: css=.btn >> text=Cadastrar"}
-{"level":30,"time":"2022-03-28T00:49:25.017Z","pid":4732,"hostname":"DESKTOP-J783RV2","msg":"Changed active context"}
-{"level":30,"time":"2022-03-28T00:49:25.017Z","pid":4732,"hostname":"DESKTOP-J783RV2","msg":"Changing current active page"}
-{"level":30,"time":"2022-03-28T00:49:25.017Z","pid":4732,"hostname":"DESKTOP-J783RV2","msg":"Changed active page"}
-{"level":30,"time":"2022-03-28T00:49:25.030Z","pid":4732,"hostname":"DESKTOP-J783RV2","msg":"Changed active context"}
-{"level":30,"time":"2022-03-28T00:49:25.030Z","pid":4732,"hostname":"DESKTOP-J783RV2","msg":"Changing current active page"}
-{"level":30,"time":"2022-03-28T00:49:25.030Z","pid":4732,"hostname":"DESKTOP-J783RV2","msg":"Changed active page"}
+{"level":30,"time":"2022-03-29T19:50:59.474Z","pid":7004,"hostname":"DESKTOP-J783RV2","msg":"Listening on 55047"}
+{"level":30,"time":"2022-03-29T19:51:00.743Z","pid":7004,"hostname":"DESKTOP-J783RV2","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2022-03-29T19:51:00.761Z","pid":7004,"hostname":"DESKTOP-J783RV2","msg":"Changed active context"}
+{"level":30,"time":"2022-03-29T19:51:00.979Z","pid":7004,"hostname":"DESKTOP-J783RV2","msg":"Video path: undefined"}
+{"level":30,"time":"2022-03-29T19:51:00.979Z","pid":7004,"hostname":"DESKTOP-J783RV2","msg":"Changed active page"}
+{"level":30,"time":"2022-03-29T19:51:02.529Z","pid":7004,"hostname":"DESKTOP-J783RV2","msg":"Page|Frame|Element resolved elementSelector: css=a[href=\"/usuario/formulario\"]"}
+{"level":30,"time":"2022-03-29T19:51:03.079Z","pid":7004,"hostname":"DESKTOP-J783RV2","msg":"Page|Frame|Element resolved elementSelector: id=nome"}
+{"level":30,"time":"2022-03-29T19:51:03.127Z","pid":7004,"hostname":"DESKTOP-J783RV2","msg":"Page|Frame|Element resolved elementSelector: id=cpf"}
+{"level":30,"time":"2022-03-29T19:51:03.147Z","pid":7004,"hostname":"DESKTOP-J783RV2","msg":"Page|Frame|Element resolved elementSelector: id=email"}
+{"level":30,"time":"2022-03-29T19:51:03.163Z","pid":7004,"hostname":"DESKTOP-J783RV2","msg":"Page|Frame|Element resolved elementSelector: id=senha"}
+{"level":30,"time":"2022-03-29T19:51:03.177Z","pid":7004,"hostname":"DESKTOP-J783RV2","msg":"Page|Frame|Element resolved elementSelector: id=urlFoto"}
+{"level":30,"time":"2022-03-29T19:51:03.195Z","pid":7004,"hostname":"DESKTOP-J783RV2","msg":"Page|Frame|Element resolved elementSelector: css=.btn >> text=Cadastrar"}
+{"level":30,"time":"2022-03-29T19:51:05.407Z","pid":7004,"hostname":"DESKTOP-J783RV2","msg":"Changed active context"}
+{"level":30,"time":"2022-03-29T19:51:05.407Z","pid":7004,"hostname":"DESKTOP-J783RV2","msg":"Changing current active page"}
+{"level":30,"time":"2022-03-29T19:51:05.407Z","pid":7004,"hostname":"DESKTOP-J783RV2","msg":"Changed active page"}
+{"level":30,"time":"2022-03-29T19:51:05.419Z","pid":7004,"hostname":"DESKTOP-J783RV2","msg":"Changed active context"}
+{"level":30,"time":"2022-03-29T19:51:05.419Z","pid":7004,"hostname":"DESKTOP-J783RV2","msg":"Changing current active page"}
+{"level":30,"time":"2022-03-29T19:51:05.419Z","pid":7004,"hostname":"DESKTOP-J783RV2","msg":"Changed active page"}
